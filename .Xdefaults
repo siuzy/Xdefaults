@@ -1,0 +1,91 @@
+!#
+!# ~/.Xdefaults
+!#
+
+URxvt*title: URxvt
+URxvt*name:	URxvt
+URxvt*borderLess: false
+URxvt*letterSpace: 0
+#URxvt*background: #2c2e2f
+#URxvt*background: #151515
+URxvt*background: #000000
+URxvt.foreground: #ffffff
+#URxvt*font: -Liberation-Mono-Regular
+#URxvt*boldFont: -gohu-gohufont-medium-r-normal--11-80-100-100-c-60-iso8859-1
+
+#URxvt*font: -windows-speedy-medium-r-normal--12-90-96-96-c-70-iso8859-1
+#URxvt*boldFont: -windows-speedy-medium-r-normal--12-90-96-96-c-70-iso8859-1
+
+
+#URxvt*font: -gohu-gohufont-medium-r-normal--11-80-100-100-c-60-iso8859-1
+#URxvt*boldFont: -gohu-gohufont-medium-r-normal--11-80-100-100-c-60-iso8859-1
+
+#URxvt*font: -jmk-beep-medium-r-normal--11-100-75-75-c-60-iso8859-1
+#URxvt*boldFont: -jmk-beep-medium-r-normal--11-100-75-75-c-60-iso8859-1
+#URxvt*italicFont: -jmk-beep-medium-r-normal--11-100-75-75-c-60-iso8859-1
+#URxvt*boldItalicFont: -jmk-beep-medium-r-normal--11-100-75-75-c-60-iso8859-1
+
+URxvt.perl-ext-common: matcher,selection-to-clipboard
+URxvt.url-launcher: firefox
+URxvt.matcher.button: 1
+
+URxvt*saveLines: 10000
+URxvt*scrollBar: false
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+URxvt.keysym.Home: \033[1~
+URxvt.keysym.End: \033[4~
+URxvt.keysym.KP_Home: \033[1~
+URxvt.keysym.KP_End:  \033[4~
+
+URxvt.internalBorder: 10
+URxvt*.cutchars: "()*,;<>[]{}|`\"'#│"'`"
+
+! Dracula Xresources palette
+URxvt*.color0:     #000000
+URxvt*.color8:     #4D4D4D
+URxvt*.color1:     #990000
+URxvt*.color9:     #E60000
+URxvt*.color2:     #FF9900
+URxvt*.color10:    #FFA31A
+URxvt*.color3:     #FF8000
+URxvt*.color11:    #F4F99D
+URxvt*.color4:     #9855F6
+URxvt*.color12:    #CAA9FA
+URxvt*.color5:     #B300B3
+URxvt*.color13:    #CC00CC
+URxvt*.color6:     #0099CC
+URxvt*.color14:    #9AEDFE
+URxvt*.color7:     #BFBFBF
+URxvt*.color15:    #E6E6E6
+
+#URxvt*color0: #1c1c1c
+#URxvt*color8: #505050
+#URxvt*color1: #cd5c5c
+#URxvt*color9: #e5505f
+#URxvt*color2: #8eae71
+#URxvt*color10: #95c749
+#URxvt*color3: #d2b48c
+#URxvt*color11: #ffa75d
+#URxvt*color4: #0087af
+#URxvt*color12: #6495ed
+#URxvt*color5: #7E62B3
+#URxvt*color13: #a488d9
+#URxvt*color6: #5f7b8a
+#URxvt*color14: #00afd7
+#URxvt*color7: #665c64
+#URxvt*color15: #cacaca
+
+rofi.color-window: #262626, #262626, #262626
+rofi.color-normal: #262626, #989E8E, #262626, #606060, #262626
