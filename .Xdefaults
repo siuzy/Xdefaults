@@ -55,20 +55,20 @@ URxvt*.cutchars: "()*,;<>[]{}|`\"'#│"'`"
 ! Dracula Xresources palette
 URxvt*.color0:     #000000
 URxvt*.color8:     #4D4D4D
-URxvt*.color1:     #990000
-URxvt*.color9:     #E60000
-URxvt*.color2:     #FF9900
-URxvt*.color10:    #FFA31A
-URxvt*.color3:     #FF8000
-URxvt*.color11:    #F4F99D
-URxvt*.color4:     #9855F6
-URxvt*.color12:    #CAA9FA
-URxvt*.color5:     #B300B3
-URxvt*.color13:    #CC00CC
-URxvt*.color6:     #0099CC
-URxvt*.color14:    #9AEDFE
-URxvt*.color7:     #BFBFBF
-URxvt*.color15:    #E6E6E6
+URxvt*.color1:     #660000
+URxvt*.color9:     #B30000
+URxvt*.color2:     #595959
+URxvt*.color10:    #666666
+URxvt*.color3:     #660000
+URxvt*.color11:    #B30000
+URxvt*.color4:     #D9D9D9
+URxvt*.color12:    #E6E6E6
+URxvt*.color5:     #660000
+URxvt*.color13:    #B30000
+URxvt*.color6:     #660000
+URxvt*.color14:    #B30000
+URxvt*.color7:     #999999
+URxvt*.color15:    #A6A6A6
 
 #URxvt*color0: #1c1c1c
 #URxvt*color8: #505050
